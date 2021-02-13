@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Todo list</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c39033e14b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1 class="page-title">Todo List</h1>
+        <!--<p class="page-subtitle">by Luciano Nieves</p>-->
+        <div class="social-buttons">
+            <a href="https://github.com/GOZEBRAHEAD" target="_blank"><i id="github" class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/luciano-nieves/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </header>
+    
+    <main>
+        <div id="div-list"></div>
+
+        <aside>
+            <p class="create-text">Create item:</p>
+            <h6>Max. 158 characteres</h6>
+            
+            <textarea name="cuerpo" id="cuerpo" cols="30" rows="10" placeholder="Write something here!" required></textarea>
+
+            <button type="submit" id="btn-create">Create <i class="far fa-check-circle"></i></button>
+        </aside>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
